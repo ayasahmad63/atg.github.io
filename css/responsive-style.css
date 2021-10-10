@@ -1,0 +1,27 @@
+@media  screen and (max-width:1000px) {
+    
+    
+    
+    
+    .main-big-background{
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);
+        background-image: url("../assests/image/Rectangle 2 (1).svg");
+        height: 46vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+       
+    }
+     .noneproperty{
+         display: none;
+     }
+
+
+
+
+
+
+
+
+
+}
