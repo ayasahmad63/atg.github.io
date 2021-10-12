@@ -18,9 +18,9 @@
 
     <!-- NAvbar -->
 
-    <nav class="navbar sticky-top navbar-light bg-light  back-nav">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+    <nav class="navbar sticky-top navbar-light bg-light  back-nav  top_navbar">
+        <div class="container-fluid  ">
+            <a class="navbar-brand " href="#">
                 <span><img src="./assests/header/Path 963.svg"></span>
                 <span><img src="./assests/header/Path 964.svg"></span>
                 <span><img src="./assests/header/Path 965.svg"></span>
@@ -78,10 +78,24 @@
     <!-- Background Image Section -->
     <div class="container-fluid bg-body main-big-background">
 
+        <!-- Mobile Nav-Bar -->
 
-        <p class="p-4 fw-bold fs-1  background-text">Computer Engineeing</p>
+        <div class="container-fluid mob_navbar  ">
+            <div class="row ">
+                <div class="col-2 "><img src="./assests/icon/back-arrow.svg"></div>
+                <button type="button" class="col-3 offset-7  btn btn-primary">Leave Group</button>
 
-        <p class="px-4  fs-5 align-bottom background-text">142,765 Computer Engineers follows this</p>
+            </div>
+        </div>
+
+        <!-- ----- -->
+
+
+        <p class="p-4 fw-bold fs-1 lar-ali   background-text">Computer Engineeing</p>
+        <p class="px-4  fs-3 lar-ali  align-bottom background-text">142,765 Computer Engineers follows this</p>
+
+        <p class="p-4 small-ali fw-bold fs-2   background-text">Computer Engineeing</p>
+        <p class="px-4 small-ali asa  background-text">142,765 Computer Engineers follows this</p>
 
     </div>
 
@@ -90,7 +104,13 @@
 
     <!-- Main Body -->
 
+    <!-- Website Sub Navbar -->
+
     <div class="container main-menu">
+
+
+
+
         <ul class="nav">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">All Posts(32)</a>
@@ -127,13 +147,47 @@
 
 
 
+    </div>
+
+    <!-- ------ -->
+
+
+
+    <!-- Mobile SubNavbar -->
+    <div class="container-lg">
+        <nav class="navbar  navbar-dark mob_Navi bg-dark">
+            <div class="container-lg">
+                <a class="navbar-brand" href="#">Posts(368)</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
     </div>
 
 
+
     <!-- Card-1 -->
 
-    <div class="container ">
+    <div class="container-lg ">
         <div class="row">
             <div class="col-lg-8 ">
                 <div class="card " style="width: 100%;">
@@ -142,7 +196,8 @@
                         <img class="about_image" src="./assests/icon/✍️ Article.svg">
                         <div class="row">
                             <div class="col-8 ">
-                                <h5 class="card-title">What if damous brands had regular fonts? Meet RegulaBrands!</h5>
+                                <h5 class="card-title fw-bold">What if damous brands had regular fonts? Meet
+                                    RegulaBrands!</h5>
                             </div>
                             <div class="col-1 offset-3  dotbutton">
                                 <img class="justify-content-end dot_image" src=" assests/icon/Vector (1).svg">
@@ -179,7 +234,7 @@
                         <img class="about_image" src="./assests/icon/🔬️ Education.svg">
                         <div class="row">
                             <div class="col-8 ">
-                                <h5 class="card-title">Tax Benefits for Investment under National Pension Scheme
+                                <h5 class="card-title fw-bold">Tax Benefits for Investment under National Pension Scheme
                                     launched by Government</h5>
                             </div>
                             <div class="col-1 offset-3  dotbutton">
@@ -191,7 +246,7 @@
                             rei....</p>
 
                         <div class="row card_des">
-                            <div class="col-8 ">
+                            <div class="col-8 fw-bold">
                                 <img src="assests/image/Rectangle 3 (4).svg">
                                 Sarah West
                             </div>
@@ -217,7 +272,7 @@
                         <img class="about_image" src="./assests/icon/🗓️ Meetup.svg">
                         <div class="row">
                             <div class="col-8 ">
-                                <h5 class="card-title">Finance & Investment Elite Social Mixer @Lujiazui</h5>
+                                <h5 class="card-title fw-bold">Finance & Investment Elite Social Mixer @Lujiazui</h5>
                             </div>
                             <div class="col-1 offset-3  dotbutton">
                                 <img class="justify-content-end dot_image" src=" assests/icon/Vector (1).svg">
@@ -227,8 +282,38 @@
                         <p class="card-text">I have worked in UX for the better part of a decade. From now on,I plan to
                             rei....</p>
 
+
+
+                        <!-- Company Information and Website Link -->
+
+                        <div class="row p-2">
+
+
+
+                            <div class="col-6 fw-bold">
+                                <img src="assests/icon/Vector (8).svg">
+                                Fri,12 Oct,2018
+                            </div>
+                            <div class="col-4 fw-bold ">
+                                <img src="./assests/icon/Vector (7).svg">
+                                Ahmedabad,India
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <button type="button" class="btn   btn-outline-danger full-button">Visit
+                                    Website</button>
+                            </div>
+                        </div>
+
+
+                        <!-- ------ -->
+
+
+
                         <div class="row card_des">
-                            <div class="col-8 ">
+                            <div class="col-8 fw-bold ">
                                 <img src="assests/image/Rectangle 3 (5).svg">
                                 Ronal Jones
                             </div>
@@ -258,12 +343,11 @@
                             <img class="about_image" src="./assests/icon/💼️ Job.svg">
                             <div class="row">
                                 <div class="col-8 ">
-                                    <h5 class="card-title">Software Developer
+                                    <h5 class="card-title fw-bold">Software Developer
                                     </h5>
                                 </div>
                                 <div class="col-1 offset-3  dotbutton">
-                                    <img class="justify-content-end dot_image"
-                                        src=" assests/icon/Rectangle 3 (3) (1).svg">
+                                    <img class="justify-content-end dot_image" src=" assests/icon/Vector (1).svg">
                                 </div>
                             </div>
 
@@ -271,8 +355,35 @@
                                 to
                                 rei....</p>
 
+                            <!-- Company Information And Website Link -->
+
+                            <div class="row p-2">
+
+
+
+                                <div class="col-6 fw-bold">
+                                    <img src="assests/icon/Vector (5).svg">
+                                    Innovaccer Analytics Private Ltd.
+                                </div>
+                                <div class="col-4 fw-bold ">
+                                    <img src="./assests/icon/Vector (7).svg">
+                                    Noida,India
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <button type="button" class="btn btn-outline-success full-button">Apply on
+                                        Timesjobs</button>
+                                </div>
+                            </div>
+
+                            <!-- ---- -->
+
+
                             <div class="row card_des">
-                                <div class="col-8 ">
+                                <div class="col-8 fw-bold">
                                     <img src="assests/image/Rectangle 3 (6).svg">
                                     Joseph Gray
                                 </div>

@@ -15,13 +15,50 @@
      .noneproperty{
          display: none;
      }
+     .top_navbar{
+         display: none;
+     }
+     .main-menu{
+         display: none;
+     }
+     .right-side{
+         display: none;
+     }
 
 
 
 
+}
+@media screen and (min-width:1000px){
+    .mob_navbar{
+        display: none;
+    }
+    .mob_Navi{
+        display: none;
+    }
+}
 
 
 
+@media screen and (max-width:500px) {
+    .lar-ali{
+        display: none;
+    }
+    .leave_button{
+        /* width: 10% */
+    }
+}
+@media screen and (min-width:500px) {
+    .small-ali{
+        display: none;
+    }
+    
+}
 
 
+@media screen and (max-width:350px) {
+    .asa{
+        display: none;
+    }
+    
 }
